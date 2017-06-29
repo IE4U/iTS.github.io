@@ -1,0 +1,59 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="index.html" class="back link" data-force="true">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding">Operation Details</div>
+        <div class="right">
+            <a href="#" class="link" id = "convert_to_cvs">Export CSV</a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="about" class="page">
+        <div class="page-content">
+            <div class="list-block">
+                <ul>
+                    <div id="entry_template"></div>
+                </ul>
+            </div>
+            
+            
+            <div class="list-block sortable">
+                <ul id = "stepIndexList" >
+                    <li class="item-content" id = "add_step">
+                        <div class="item-inner">
+                            <div style="margin: auto;" class="icon-cell">
+                                <i class="f7-icons size-50">add_round</i>
+                            </div>
+                        </div>
+                        <div class="sortable-handler"></div>
+                    </li>
+                </ul>
+                <div style="text-align: center;" class="list-block-label">Add Step</div>
+            </div>       
+            <!-- <div class="list-block">
+                <ul>
+                    <li>
+                        <a href= "continuous.html" class="item-link">
+                            <div class="item-content">
+                                <div class="item-inner" >
+                                    <div class="item-title">Continuous Time</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div style="text-align: center;" class="list-block-label"> &nbsp </div>
+            </div> -->
+        </div>
+    </div>
+    
+    
+</div>

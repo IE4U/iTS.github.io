@@ -1,0 +1,7 @@
+Issues:
+1) When you go back while the stopwatch is running, need to update the average of the step on the about page.
+Status: Fixed
+2) N/A instead of 00:00:00.00
+
+Improvements:
+1) Look into the formate of the export file.

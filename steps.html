@@ -1,0 +1,67 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="about.html" class="back link" data-force="true">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding">Step Details</div>
+        <div class="right">
+            
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="steps" class="page">
+        <div class="page-content">
+            <div class="list-block">
+                <ul>
+                    <div id="step_template"></div>
+                </ul>
+            </div>
+            
+            <div style="text-align: center;" class="content-block-title">Timer</div>
+            <div class="list-block">
+                <ul>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <h1 id ="total_time" style="text-align: center;">00:00.00</h1>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            
+            <div class="row">
+                <div class="col-50">
+                    <a id = "reset_button" class="button button-fill button-big color-gray button-round">Reset</a>
+                </div>
+                <div class="col-50">
+                    <a id = "start_button" class="button button-fill button-big color-green button-round">Start</a>
+                </div>
+            </div> 
+            
+            
+            <div class="list-block" id = "timeList">
+                <ul>
+                    <li class="item-content" id = "add_time">
+                        <div class="item-inner">
+                            <div style="margin: auto;" class="icon-cell">
+                                <i id = "stopwatch" class="f7-icons size-50">stopwatch_fill</i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div style="text-align: center;" class="list-block-label">Clear Times</div>
+            </div>                     
+        </div>
+    </div>
+    
+    
+    
+</div>
